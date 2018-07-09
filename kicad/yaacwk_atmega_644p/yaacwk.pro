@@ -1,4 +1,4 @@
-update=dom 16 apr 2017 11:11:37 CEST
+update=lun 09 lug 2018 23:17:03 CEST
 version=1
 last_client=kicad
 [general]
@@ -27,7 +27,7 @@ version=1
 NetIExt=net
 [eeschema]
 version=1
-LibDir=../lib;../lib/w_conn_misc.pretty;../lib/w_misc_comp.pretty
+LibDir=../lib;../modules/w_conn_misc.pretty;../modules/w_misc_comp.pretty
 [eeschema/libraries]
 LibName1=yaacwk-rescue
 LibName2=power
@@ -63,13 +63,14 @@ LibName31=ms-conn
 LibName32=w_device
 LibName33=w_connectors
 LibName34=custom_kicad_symbols
+LibName35=PJ320A
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
+NetFmtName=Pcbnew
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60

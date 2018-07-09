@@ -1,6 +1,6 @@
 (export (version D)
   (design
-    (source /home/iz1glg/src/k3ng_cw_keyer/iz1glg_src/k3ng_keyer/kicad/yaacwk_atmega_644p/yaacwk.sch)
+    (source /home/iz1glg/src/k3ng_cw_keyer/iz1glg_src/k3ng_keyer/kicad/yaacwk.sch)
     (date "lun 09 lug 2018 23:16:08 CEST")
     (tool "Eeschema 4.0.5+dfsg1-4")
     (sheet (number 1) (name /) (tstamps /)
@@ -792,7 +792,7 @@
     (library (logical PJ320A)
       (uri /home/iz1glg/src/k3ng_cw_keyer/iz1glg_src/k3ng_keyer/kicad/lib/PJ320A.lib))
     (library (logical yaacwk-cache)
-      (uri /home/iz1glg/src/k3ng_cw_keyer/iz1glg_src/k3ng_keyer/kicad/yaacwk_atmega_644p/yaacwk-cache.lib))
+      (uri /home/iz1glg/src/k3ng_cw_keyer/iz1glg_src/k3ng_keyer/kicad/yaacwk-cache.lib))
     (library (logical regul)
       (uri /usr/share/kicad/library/regul.lib)))
   (nets

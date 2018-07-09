@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/iz1glg/src/k3ng_cw_keyer/iz1glg_src/k3ng_keyer/kicad/yaacwk_atmega_644p/yaacwk.sch</source>
+    <source>/home/iz1glg/src/k3ng_cw_keyer/iz1glg_src/k3ng_keyer/kicad/yaacwk.sch</source>
     <date>lun 09 lug 2018 10:38:36 CEST</date>
     <tool>Eeschema 4.0.5+dfsg1-4</tool>
     <sheet number="1" name="/" tstamps="/">
@@ -964,7 +964,7 @@
       <uri>/home/iz1glg/src/k3ng_cw_keyer/iz1glg_src/k3ng_keyer/kicad/lib/custom_kicad_symbols.lib</uri>
     </library>
     <library logical="yaacwk-cache">
-      <uri>/home/iz1glg/src/k3ng_cw_keyer/iz1glg_src/k3ng_keyer/kicad/yaacwk_atmega_644p/yaacwk-cache.lib</uri>
+      <uri>/home/iz1glg/src/k3ng_cw_keyer/iz1glg_src/k3ng_keyer/kicad/yaacwk-cache.lib</uri>
     </library>
   </libraries>
   <nets>

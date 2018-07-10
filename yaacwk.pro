@@ -1,4 +1,4 @@
-update=lun 09 lug 2018 23:17:03 CEST
+update=mar 10 lug 2018 03:03:11 CEST
 version=1
 last_client=kicad
 [general]
@@ -25,9 +25,19 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
-LibDir=../lib;../modules/w_conn_misc.pretty;../modules/w_misc_comp.pretty
+LibDir=lib
 [eeschema/libraries]
 LibName1=yaacwk-rescue
 LibName2=power
@@ -64,13 +74,3 @@ LibName32=w_device
 LibName33=w_connectors
 LibName34=custom_kicad_symbols
 LibName35=PJ320A
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60

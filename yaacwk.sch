@@ -40,11 +40,11 @@ EELAYER END
 $Descr User 11418 7481
 encoding utf-8
 Sheet 1 1
-Title "Yet Another Arduino Cw Keyer - AtMega 644p variant"
-Date "2017-04-14"
-Rev "E"
-Comp "Copyright: CC BY-SA 3.0 IT by: I1cra - Iz1glg"
-Comment1 ""
+Title "YAACWK - Yet Another Arduino Cw Keyer"
+Date "2018-07-5"
+Rev "F"
+Comp "Copyright: CC BY-SA 4.0 by: Iz1glg"
+Comment1 "ATmega 644p variant"
 Comment2 ""
 Comment3 ""
 Comment4 ""

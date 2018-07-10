@@ -13,6 +13,14 @@
   )
 
   (page A)
+  (title_block
+    (title "YAACWK - Yet Another Arduino Cw Keyer")
+    (date 2018-07-5)
+    (rev B)
+    (company "Copyright: CC BY-SA 4.0 by: Iz1glg")
+    (comment 1 "ATmega 644p variant")
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)

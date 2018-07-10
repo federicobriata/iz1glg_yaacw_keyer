@@ -13,6 +13,13 @@
   )
 
   (page A)
+  (title_block
+    (title "YAACWK - Yet Another Arduino Cw Keyer")
+    (date 2018-07-5)
+    (rev B)
+    (company "Copyright: CC BY-SA 4.0 by: Iz1glg")
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
@@ -1566,7 +1573,7 @@
     (descr "Crystal THT HC-49/U http://5hertz.com/pdfs/04404_D.pdf")
     (tags "THT crystalHC-49/U")
     (path /5726AF8E)
-    (fp_text reference Y1 (at 4.404 0.156 180) (layer F.SilkS)
+    (fp_text reference Y1 (at 2.1722 3.5306 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "Crystal 16 MHz" (at 2.44 3.525 180) (layer F.Fab)

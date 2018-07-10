@@ -40,11 +40,11 @@ EELAYER END
 $Descr User 11418 7481
 encoding utf-8
 Sheet 1 1
-Title "Yet Another Arduino Cw Keyer - AtMega 644p variant"
-Date "2017-04-14"
-Rev "E"
-Comp "Copyright: CC BY-SA 3.0 IT by: I1cra - Iz1glg"
-Comment1 ""
+Title "YAACWK - Yet Another Arduino Cw Keyer"
+Date "2018-07-5"
+Rev "F"
+Comp "Copyright: CC BY-SA 4.0 by: Iz1glg"
+Comment1 "AtMega 644p variant"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -1459,7 +1459,7 @@ Wire Wire Line
 Wire Wire Line
 	10600 1300 10700 1300
 Wire Wire Line
-	9500 2850 9500 2350
+	9500 2350 9500 2850
 Wire Wire Line
 	8900 2450 9700 2450
 Wire Wire Line
@@ -1561,9 +1561,8 @@ Wire Wire Line
 Wire Wire Line
 	8250 1150 8150 1150
 Wire Wire Line
-	8150 1150 8150 1350
+	8150 1150 8150 1250
 Connection ~ 8150 1250
 Connection ~ 6550 6800
-Wire Wire Line
-	8150 1350 8250 1350
+NoConn ~ 8250 1350
 $EndSCHEMATC

@@ -1,0 +1,10 @@
+(sym_lib_table
+  (lib (name yaacwk-rescue)(type Legacy)(uri ${KIPRJMOD}/yaacwk-rescue.lib)(options "")(descr ""))
+  (lib (name display)(type Legacy)(uri ${KIPRJMOD}/lib/display.lib)(options "")(descr ""))
+  (lib (name atmel)(type Legacy)(uri ${KIPRJMOD}/lib/atmel.lib)(options "")(descr ""))
+  (lib (name ms-conn)(type Legacy)(uri ${KIPRJMOD}/lib/ms-conn.lib)(options "")(descr ""))
+  (lib (name w_device)(type Legacy)(uri ${KIPRJMOD}/lib/w_device.lib)(options "")(descr ""))
+  (lib (name w_connectors)(type Legacy)(uri ${KIPRJMOD}/lib/w_connectors.lib)(options "")(descr ""))
+  (lib (name custom_kicad_symbols)(type Legacy)(uri ${KIPRJMOD}/lib/custom_kicad_symbols.lib)(options "")(descr ""))
+  (lib (name PJ320A)(type Legacy)(uri ${KIPRJMOD}/lib/PJ320A.lib)(options "")(descr ""))
+)

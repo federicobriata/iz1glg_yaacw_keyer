@@ -1,0 +1,36 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# PJ320D_3.5mm_4_conductors_audio_plug-RESCUE-yaacwk
+#
+DEF PJ320D_3.5mm_4_conductors_audio_plug-RESCUE-yaacwk J 0 1 Y N 1 F N
+F0 "J" 0 350 50 H V C CNN
+F1 "PJ320D_3.5mm_4_conductors_audio_plug-RESCUE-yaacwk" 0 -200 50 H V C CNN
+F2 "" -200 150 50 H V C CNN
+F3 "" -200 150 50 H V C CNN
+$FPLIST
+ 3.5_mm
+ audio
+ jack
+ plug
+ mic
+ phone
+ headphones
+$ENDFPLIST
+DRAW
+S 275 200 325 0 0 1 0 N
+S 325 0 275 0 0 1 0 N
+P 2 0 1 0 -50 100 -100 100 N
+P 2 0 1 0 50 200 -100 200 N
+P 2 0 1 0 100 0 -100 0 N
+P 3 0 1 0 50 100 0 150 -50 100 N
+P 3 0 1 0 150 200 100 150 50 200 N
+P 3 0 1 0 200 0 150 50 100 0 N
+X GND 2 300 -100 100 U 50 50 1 1 I
+X L 3 -200 200 100 R 50 50 1 1 O
+X R 4 -200 100 100 R 50 50 1 1 I
+X MIC 5 -200 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

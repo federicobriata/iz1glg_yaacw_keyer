@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PJRAN1X1U03AUX
+D RCA Phono Connectors 1 POS RA PHONO JACK
+K
+F http://www.switchcraft.com/Drawings/pjran1x1u__x_series_cd.pdf
+$ENDCMP
+#
+#End Doc Library

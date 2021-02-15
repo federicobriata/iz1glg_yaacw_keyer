@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/iz1glg/src/k3ng_cw_keyer/iz1glg_src/k3ng_keyer/kicad/yaacwk.sch</source>
-    <date>lun 09 lug 2018 10:38:36 CEST</date>
-    <tool>Eeschema 4.0.5+dfsg1-4</tool>
+    <source>/home/iz1glg/src/k3ng_cw_keyer/iz1glg_src/kicad/yaacwk.sch</source>
+    <date>lun 15 feb 2021 01:27:45 CET</date>
+    <tool>Eeschema 5.0.2+dfsg1-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title>Yet Another Arduino Cw Keyer - AtMega 644p variant</title>
-        <company>Copyright: CC BY-SA 3.0 IT by: I1cra - Iz1glg</company>
-        <rev>E</rev>
-        <date>2017-04-14</date>
+        <title>YAACWK - Yet Another Arduino Cw Keyer</title>
+        <company>Copyright: CC BY-SA 4.0 by: Iz1glg - I1cra</company>
+        <rev>H</rev>
+        <date>2019-04-27</date>
         <source>yaacwk.sch</source>
-        <comment number="1" value=""/>
+        <comment number="1" value="ATmega 644p variant"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
@@ -20,534 +20,857 @@
   </design>
   <components>
     <comp ref="R6">
-      <value>470 Ohm</value>
+      <value>1kOhm</value>
       <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
-      <libsource lib="device" part="R"/>
+      <datasheet>~</datasheet>
+      <libsource lib="yaacwk-rescue" part="R" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E4FB60</tstamp>
     </comp>
     <comp ref="R7">
-      <value>470 Ohm</value>
+      <value>1kOhm</value>
       <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
-      <libsource lib="device" part="R"/>
+      <datasheet>~</datasheet>
+      <libsource lib="yaacwk-rescue" part="R" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E4FB6F</tstamp>
     </comp>
     <comp ref="R8">
-      <value>470 Ohm</value>
+      <value>1kOhm</value>
       <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
-      <libsource lib="device" part="R"/>
+      <datasheet>~</datasheet>
+      <libsource lib="yaacwk-rescue" part="R" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E4FB85</tstamp>
     </comp>
     <comp ref="R10">
       <value>1kOhm</value>
       <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
-      <libsource lib="yaacwk-cache" part="R-RESCUE-yaacwk"/>
+      <datasheet>~</datasheet>
+      <libsource lib="yaacwk-rescue" part="R-RESCUE-yaacwk" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E4FB94</tstamp>
     </comp>
     <comp ref="R11">
       <value>1kOhm</value>
       <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
-      <libsource lib="yaacwk-cache" part="R-RESCUE-yaacwk"/>
+      <datasheet>~</datasheet>
+      <libsource lib="yaacwk-rescue" part="R-RESCUE-yaacwk" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E4FBA3</tstamp>
     </comp>
     <comp ref="IC2">
       <value>TLP627-2</value>
       <footprint>Housings_DIP:DIP-8_W7.62mm</footprint>
-      <libsource lib="opto" part="TLP627-2"/>
+      <libsource lib="yaacwk-rescue" part="TLP627-2" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E4FBCB</tstamp>
     </comp>
     <comp ref="C4">
       <value>10nF</value>
-      <footprint>Capacitors_ThroughHole:C_Disc_D7.5_P5</footprint>
-      <libsource lib="device" part="C"/>
+      <footprint>Capacitors_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="yaacwk-rescue" part="C" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E5030E</tstamp>
     </comp>
     <comp ref="C5">
       <value>10nF</value>
-      <footprint>Capacitors_ThroughHole:C_Disc_D7.5_P5</footprint>
-      <libsource lib="device" part="C"/>
+      <footprint>Capacitors_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="yaacwk-rescue" part="C" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E50343</tstamp>
     </comp>
     <comp ref="C2">
       <value>10nF</value>
-      <footprint>Capacitors_ThroughHole:C_Disc_D7.5_P5</footprint>
-      <libsource lib="device" part="C"/>
+      <footprint>Capacitors_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="yaacwk-rescue" part="C" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E50416</tstamp>
     </comp>
     <comp ref="C3">
       <value>10nF</value>
-      <footprint>Capacitors_ThroughHole:C_Disc_D7.5_P5</footprint>
-      <libsource lib="device" part="C"/>
+      <footprint>Capacitors_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="yaacwk-rescue" part="C" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E50444</tstamp>
     </comp>
     <comp ref="R4">
       <value>1kOhm</value>
       <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
-      <libsource lib="device" part="R"/>
+      <datasheet>~</datasheet>
+      <libsource lib="yaacwk-rescue" part="R" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E5187A</tstamp>
     </comp>
     <comp ref="R3">
       <value>1kOhm</value>
       <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
-      <libsource lib="device" part="R"/>
+      <datasheet>~</datasheet>
+      <libsource lib="yaacwk-rescue" part="R" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E51889</tstamp>
     </comp>
     <comp ref="R2">
       <value>1kOhm</value>
       <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
-      <libsource lib="device" part="R"/>
+      <datasheet>~</datasheet>
+      <libsource lib="yaacwk-rescue" part="R" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E51898</tstamp>
     </comp>
     <comp ref="R1">
       <value>10kOhm</value>
       <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
-      <libsource lib="device" part="R"/>
+      <datasheet>~</datasheet>
+      <libsource lib="yaacwk-rescue" part="R" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E518B6</tstamp>
     </comp>
     <comp ref="SW5">
-      <value>SW_PUSH</value>
-      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
-      <libsource lib="w_device" part="SW_PUSH"/>
+      <value>SW_SPDT</value>
+      <footprint>Buttons_Switches_THT:SW_TH_Tactile_Omron_B3F-10xx</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="w_device" part="SW_SPDT" description="Switch SPDT"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E51BF5</tstamp>
     </comp>
     <comp ref="SW4">
-      <value>SW_PUSH</value>
-      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
-      <libsource lib="w_device" part="SW_PUSH"/>
+      <value>SW_SPDT</value>
+      <footprint>Buttons_Switches_THT:SW_TH_Tactile_Omron_B3F-10xx</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="w_device" part="SW_SPDT" description="Switch SPDT"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E51BFB</tstamp>
     </comp>
     <comp ref="SW3">
-      <value>SW_PUSH</value>
-      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
-      <libsource lib="w_device" part="SW_PUSH"/>
+      <value>SW_SPDT</value>
+      <footprint>Buttons_Switches_THT:SW_TH_Tactile_Omron_B3F-10xx</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="w_device" part="SW_SPDT" description="Switch SPDT"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E51C21</tstamp>
     </comp>
     <comp ref="SW2">
-      <value>SW_PUSH</value>
-      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
-      <libsource lib="w_device" part="SW_PUSH"/>
+      <value>SW_SPDT</value>
+      <footprint>Buttons_Switches_THT:SW_TH_Tactile_Omron_B3F-10xx</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="w_device" part="SW_SPDT" description="Switch SPDT"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E51C30</tstamp>
     </comp>
     <comp ref="SW1">
-      <value>SW_PUSH</value>
-      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
-      <libsource lib="w_device" part="SW_PUSH"/>
+      <value>SW_SPDT</value>
+      <footprint>Buttons_Switches_THT:SW_TH_Tactile_Omron_B3F-10xx</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="w_device" part="SW_SPDT" description="Switch SPDT"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E51C3F</tstamp>
     </comp>
     <comp ref="SpeedPot1">
       <value>10kOhm</value>
-      <footprint>Potentiometers:Potentiometer_Alps_RK097_Single_Vertical</footprint>
-      <libsource lib="device" part="POT"/>
+      <footprint>Potentiometers:Potentiometer_Piher_T16H_Single_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="yaacwk-rescue" part="POT" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E782C2</tstamp>
     </comp>
     <comp ref="D2">
       <value>LED</value>
       <footprint>LEDs:LED_D3.0mm</footprint>
-      <libsource lib="device" part="LED"/>
+      <datasheet>~</datasheet>
+      <libsource lib="yaacwk-rescue" part="LED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E78476</tstamp>
     </comp>
     <comp ref="D3">
       <value>LED</value>
       <footprint>LEDs:LED_D3.0mm</footprint>
-      <libsource lib="device" part="LED"/>
+      <datasheet>~</datasheet>
+      <libsource lib="yaacwk-rescue" part="LED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E78485</tstamp>
     </comp>
     <comp ref="D1">
       <value>LED</value>
       <footprint>LEDs:LED_D3.0mm</footprint>
-      <libsource lib="device" part="LED"/>
+      <datasheet>~</datasheet>
+      <libsource lib="yaacwk-rescue" part="LED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E78494</tstamp>
     </comp>
     <comp ref="L2">
       <value>INDUCTOR 5μH</value>
       <footprint>Inductors_THT:L_Axial_L7.0mm_D3.3mm_P10.16mm_Horizontal_Fastron_MICC</footprint>
-      <libsource lib="w_device" part="INDUCTOR"/>
+      <datasheet>~</datasheet>
+      <libsource lib="w_device" part="INDUCTOR" description="Inductor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E9B16A</tstamp>
     </comp>
     <comp ref="L1">
       <value>INDUCTOR 5μH</value>
       <footprint>Inductors_THT:L_Axial_L7.0mm_D3.3mm_P10.16mm_Horizontal_Fastron_MICC</footprint>
-      <libsource lib="w_device" part="INDUCTOR"/>
+      <datasheet>~</datasheet>
+      <libsource lib="w_device" part="INDUCTOR" description="Inductor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E9B179</tstamp>
     </comp>
     <comp ref="BZ1">
       <value>BUZZER</value>
       <footprint>Buzzers_Beepers:Buzzer_12x9.5RM7.6</footprint>
-      <libsource lib="w_device" part="buzzer"/>
+      <libsource lib="w_device" part="buzzer" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E9D208</tstamp>
     </comp>
     <comp ref="C1">
       <value>5nF</value>
-      <footprint>Capacitors_ThroughHole:C_Disc_D7.5_P5</footprint>
-      <libsource lib="yaacwk-cache" part="C-RESCUE-yaacwk"/>
+      <footprint>Capacitors_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="yaacwk-rescue" part="C" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55D9E040</tstamp>
     </comp>
     <comp ref="C9">
       <value>100nF</value>
-      <footprint>Capacitors_ThroughHole:C_Disc_D7.5_P5</footprint>
-      <libsource lib="device" part="C"/>
+      <footprint>Capacitors_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56946CCB</tstamp>
     </comp>
     <comp ref="C8">
       <value>100nF</value>
-      <footprint>Capacitors_ThroughHole:C_Disc_D7.5_P5</footprint>
-      <libsource lib="device" part="C"/>
+      <footprint>Capacitors_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56946CE6</tstamp>
     </comp>
     <comp ref="C7">
       <value>100nF</value>
-      <footprint>Capacitors_ThroughHole:C_Disc_D7.5_P5</footprint>
-      <libsource lib="device" part="C"/>
+      <footprint>Capacitors_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56946CEC</tstamp>
     </comp>
     <comp ref="C6">
       <value>100nF</value>
-      <footprint>Capacitors_ThroughHole:C_Disc_D7.5_P5</footprint>
-      <libsource lib="device" part="C"/>
+      <footprint>Capacitors_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56946CF2</tstamp>
     </comp>
     <comp ref="Y1">
       <value>Crystal 16 MHz</value>
       <footprint>Crystals:Crystal_HC49-U_Vertical</footprint>
-      <libsource lib="device" part="Crystal"/>
+      <libsource lib="yaacwk-rescue" part="Crystal" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5726AF8E</tstamp>
     </comp>
     <comp ref="C10">
       <value>22 pF</value>
-      <footprint>Capacitors_ThroughHole:C_Disc_D7.5_P5</footprint>
-      <libsource lib="device" part="C"/>
+      <footprint>Capacitors_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <libsource lib="yaacwk-rescue" part="C" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5726B6CB</tstamp>
     </comp>
     <comp ref="C11">
       <value>22 pF</value>
-      <footprint>Capacitors_ThroughHole:C_Disc_D7.5_P5</footprint>
-      <libsource lib="device" part="C"/>
+      <footprint>Capacitors_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <libsource lib="yaacwk-rescue" part="C" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5726B75C</tstamp>
     </comp>
     <comp ref="DS1">
       <value>LCD20X4</value>
       <footprint>Pin_Headers:Pin_Header_Straight_1x16_Pitch2.54mm</footprint>
-      <libsource lib="display" part="LCD16X2"/>
+      <libsource lib="display" part="LCD16X2" description="WC1602A0-SFYLYNC06"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5723DD97</tstamp>
     </comp>
     <comp ref="C12">
       <value>100nF</value>
-      <footprint>Capacitors_ThroughHole:C_Disc_D7.5_P5</footprint>
-      <libsource lib="device" part="C"/>
+      <footprint>Capacitors_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
+      <libsource lib="yaacwk-rescue" part="C" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5726A520</tstamp>
     </comp>
     <comp ref="R12">
       <value>10kOhm</value>
       <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
-      <libsource lib="device" part="R"/>
+      <datasheet>~</datasheet>
+      <libsource lib="yaacwk-rescue" part="R" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57246EE4</tstamp>
     </comp>
     <comp ref="R13">
       <value>10kOhm</value>
       <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
-      <libsource lib="device" part="R"/>
+      <datasheet>~</datasheet>
+      <libsource lib="yaacwk-rescue" part="R" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57247C48</tstamp>
     </comp>
     <comp ref="LCDPot2">
       <value>10kOhm</value>
       <footprint>Potentiometers:Potentiometer_Trimmer_ACP_CA9h5_Vertical_Px5.0mm_Py5.0mm</footprint>
-      <libsource lib="device" part="POT"/>
+      <datasheet>~</datasheet>
+      <libsource lib="yaacwk-rescue" part="POT" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57261201</tstamp>
     </comp>
     <comp ref="R9">
       <value>220 Ohm</value>
       <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
-      <libsource lib="device" part="R"/>
+      <datasheet>~</datasheet>
+      <libsource lib="yaacwk-rescue" part="R" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>577B7C13</tstamp>
     </comp>
     <comp ref="D4">
       <value>LED</value>
-      <footprint>LEDs:LED_D3.0mm</footprint>
-      <libsource lib="device" part="LED"/>
+      <footprint>LEDs:LED_D4.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="yaacwk-rescue" part="LED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>577B7C19</tstamp>
-    </comp>
-    <comp ref="J3">
-      <value>TX_PTT</value>
-      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
-      <libsource lib="conn" part="CONN_01X02"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>58BCCA32</tstamp>
-    </comp>
-    <comp ref="J4">
-      <value>TX_KEY</value>
-      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
-      <libsource lib="conn" part="CONN_01X02"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>58BCCAF2</tstamp>
-    </comp>
-    <comp ref="J5">
-      <value>PADDLES</value>
-      <footprint>Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm</footprint>
-      <libsource lib="conn" part="CONN_01X03"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>58BCD153</tstamp>
     </comp>
     <comp ref="PS2CONN1">
       <value>Mini-DIN_6pins_ver4</value>
       <footprint>mini_din6New:Mini_din6</footprint>
-      <libsource lib="custom_kicad_symbols" part="Mini-DIN_6pins_ver4"/>
+      <libsource lib="custom_kicad_symbols" part="Mini-DIN_6pins_ver4" description="Mini-DIN 6 pins connector with shell"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58E810EB</tstamp>
     </comp>
     <comp ref="R5">
       <value>1kOhm</value>
       <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
-      <libsource lib="device" part="R"/>
+      <datasheet>~</datasheet>
+      <libsource lib="yaacwk-rescue" part="R" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E5186B</tstamp>
-    </comp>
-    <comp ref="J1">
-      <value>EXT_PWR</value>
-      <footprint>Connectors:BARREL_JACK</footprint>
-      <libsource lib="w_connectors" part="HEADER_3"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>58F07EE7</tstamp>
     </comp>
     <comp ref="U1">
       <value>LM7805</value>
       <footprint>mojes-kicad-footprints:78XX</footprint>
-      <libsource lib="regul" part="LM7805"/>
+      <libsource lib="yaacwk-rescue" part="LM7805" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58F089FE</tstamp>
     </comp>
     <comp ref="C14">
       <value>330uF</value>
       <footprint>Capacitors_THT:CP_Radial_D8.0mm_P3.80mm</footprint>
-      <libsource lib="device" part="CP1"/>
+      <libsource lib="yaacwk-rescue" part="CP1" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58F095FB</tstamp>
     </comp>
     <comp ref="J6">
       <value>TTL_SERIAL</value>
       <footprint>Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm</footprint>
-      <libsource lib="w_connectors" part="HEADER_6"/>
+      <libsource lib="w_connectors" part="HEADER_6" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58F2AC97</tstamp>
     </comp>
     <comp ref="D6">
       <value>D_ALT</value>
       <footprint>Diodes_THT:D_A-405_P7.62mm_Horizontal</footprint>
-      <libsource lib="device" part="D_ALT"/>
+      <libsource lib="yaacwk-rescue" part="D_ALT" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58F5BF4D</tstamp>
     </comp>
     <comp ref="SW6">
-      <value>SW_PUSH</value>
+      <value>SW_SPDT</value>
       <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
-      <libsource lib="w_device" part="SW_PUSH"/>
+      <datasheet>~</datasheet>
+      <libsource lib="w_device" part="SW_SPDT" description="Switch SPDT"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5933A862</tstamp>
     </comp>
     <comp ref="J2">
       <value>AUDIO_IN</value>
       <footprint>PJ320A:PJ320A_3.5mm_4_conductors_audio_plug</footprint>
-      <libsource lib="PJ320A" part="PJ320A_3.5mm_4_conductors_audio_plug"/>
+      <libsource lib="PJ320A" part="PJ320A_3.5mm_4_conductors_audio_plug" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59622B60</tstamp>
     </comp>
     <comp ref="D5">
       <value>D_ALT</value>
       <footprint>Diodes_THT:D_A-405_P7.62mm_Horizontal</footprint>
-      <libsource lib="device" part="D_ALT"/>
+      <libsource lib="yaacwk-rescue" part="D_ALT" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58F5C1C9</tstamp>
-    </comp>
-    <comp ref="C13">
-      <value>220nF</value>
-      <footprint>Capacitors_ThroughHole:C_Disc_D7.5_P5</footprint>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A7A2245</tstamp>
     </comp>
     <comp ref="IC1">
       <value>ATMEGA644P-P</value>
       <footprint>Housings_DIP:DIP-40_W15.24mm</footprint>
-      <libsource lib="yaacwk-cache" part="ATMEGA644P-P"/>
+      <libsource lib="yaacwk-rescue" part="ATMEGA644P-P" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57203D81</tstamp>
-    </comp>
-    <comp ref="J8">
-      <value>HEADER_11</value>
-      <footprint>Pin_Headers:Pin_Header_Straight_1x11_Pitch2.54mm</footprint>
-      <libsource lib="w_connectors" part="HEADER_11"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A91FA93</tstamp>
     </comp>
     <comp ref="J7">
       <value>HEADER_6</value>
       <footprint>Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm</footprint>
-      <libsource lib="w_connectors" part="HEADER_6"/>
+      <libsource lib="w_connectors" part="HEADER_6" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A923D7C</tstamp>
     </comp>
     <comp ref="J9">
       <value>PWR_SEL</value>
-      <footprint>Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm</footprint>
-      <libsource lib="w_connectors" part="HEADER_3"/>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm</footprint>
+      <libsource lib="w_connectors" part="HEADER_3x2" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B398DEA</tstamp>
     </comp>
     <comp ref="C16">
       <value>330uF</value>
       <footprint>Capacitors_THT:CP_Radial_D8.0mm_P3.80mm</footprint>
-      <libsource lib="device" part="CP1"/>
+      <libsource lib="yaacwk-rescue" part="CP1" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B3BD90C</tstamp>
     </comp>
-    <comp ref="C15">
-      <value>220nF</value>
-      <footprint>Capacitors_ThroughHole:C_Disc_D7.5_P5</footprint>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5B3BD912</tstamp>
-    </comp>
     <comp ref="U2">
-      <value>LM2937</value>
+      <value>LM317</value>
       <footprint>mojes-kicad-footprints:78XX</footprint>
-      <libsource lib="regul" part="LM7805"/>
+      <libsource lib="yaacwk-rescue" part="LM7805" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B415AF0</tstamp>
     </comp>
     <comp ref="SW7">
-      <value>SW_PUSH</value>
-      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
-      <libsource lib="w_device" part="SW_PUSH"/>
+      <value>SW_SPDT</value>
+      <footprint>Buttons_Switches_THT:SW_TH_Tactile_Omron_B3F-10xx</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="w_device" part="SW_SPDT" description="Switch SPDT"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B3A5A63</tstamp>
     </comp>
     <comp ref="C17">
       <value>100nF</value>
-      <footprint>Capacitors_ThroughHole:C_Disc_D7.5_P5</footprint>
-      <libsource lib="device" part="C"/>
+      <footprint>Capacitors_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B3A5A69</tstamp>
     </comp>
     <comp ref="R14">
       <value>1kOhm</value>
       <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
-      <libsource lib="device" part="R"/>
+      <datasheet>~</datasheet>
+      <libsource lib="yaacwk-rescue" part="R" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B3A5A75</tstamp>
     </comp>
     <comp ref="SW8">
-      <value>SW_PUSH</value>
-      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
-      <libsource lib="w_device" part="SW_PUSH"/>
+      <value>SW_SPDT</value>
+      <footprint>Buttons_Switches_THT:SW_TH_Tactile_Omron_B3F-10xx</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="w_device" part="SW_SPDT" description="Switch SPDT"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B3A6401</tstamp>
     </comp>
     <comp ref="C18">
       <value>100nF</value>
-      <footprint>Capacitors_ThroughHole:C_Disc_D7.5_P5</footprint>
-      <libsource lib="device" part="C"/>
+      <footprint>Capacitors_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B3A6407</tstamp>
     </comp>
     <comp ref="R15">
       <value>1kOhm</value>
       <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
-      <libsource lib="device" part="R"/>
+      <datasheet>~</datasheet>
+      <libsource lib="yaacwk-rescue" part="R" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B3A640D</tstamp>
     </comp>
     <comp ref="SW9">
-      <value>SW_PUSH</value>
-      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
-      <libsource lib="w_device" part="SW_PUSH"/>
+      <value>SW_SPDT</value>
+      <footprint>Buttons_Switches_THT:SW_TH_Tactile_Omron_B3F-10xx</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="w_device" part="SW_SPDT" description="Switch SPDT"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B3A66D3</tstamp>
     </comp>
     <comp ref="C19">
       <value>100nF</value>
-      <footprint>Capacitors_ThroughHole:C_Disc_D7.5_P5</footprint>
-      <libsource lib="device" part="C"/>
+      <footprint>Capacitors_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B3A66D9</tstamp>
     </comp>
     <comp ref="R16">
       <value>1kOhm</value>
       <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
-      <libsource lib="device" part="R"/>
+      <datasheet>~</datasheet>
+      <libsource lib="yaacwk-rescue" part="R" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B3A66DF</tstamp>
     </comp>
+    <comp ref="C15">
+      <value>22uF</value>
+      <footprint>Capacitors_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <libsource lib="yaacwk-rescue" part="CP1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B54AF4C</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>22uF</value>
+      <footprint>Capacitors_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <libsource lib="yaacwk-rescue" part="CP1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B54B3CF</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>HEADER_9x2</value>
+      <libsource lib="w_connectors" part="HEADER_9x2" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BAAA586</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>HEADER_9</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x09_Pitch2.54mm</footprint>
+      <libsource lib="w_connectors" part="HEADER_9" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C58ED38</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>HEADER_9</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x09_Pitch2.54mm</footprint>
+      <libsource lib="w_connectors" part="HEADER_9" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6DF9FE</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>HEADER_9</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x09_Pitch2.54mm</footprint>
+      <libsource lib="w_connectors" part="HEADER_9" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6FFA93</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>EXT_PWR</value>
+      <footprint>Connectors:BARREL_JACK</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Barrel_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C7D9844</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>PADDLES</value>
+      <footprint>PJ320A:PJ320A_3.5mm_4_conductors_audio_plug</footprint>
+      <libsource lib="PJ320A" part="PJ320A_3.5mm_4_conductors_audio_plug" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C811668</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>TX_PTT</value>
+      <footprint>PJRAN1X1U03AUX:PJRAN1X1U03AUX</footprint>
+      <datasheet>http://www.switchcraft.com/Drawings/pjran1x1u__x_series_cd.pdf</datasheet>
+      <fields>
+        <field name="Description">RCA Phono Connectors 1 POS RA PHONO JACK</field>
+        <field name="Height">13</field>
+        <field name="Manufacturer_Name">Switchcraft</field>
+        <field name="Manufacturer_Part_Number">PJRAN1X1U03AUX</field>
+        <field name="Mouser Part Number">502-PJRAN1X1U03AUX</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=502-PJRAN1X1U03AUX</field>
+      </fields>
+      <libsource lib="PJRAN1X1U03AUX" part="PJRAN1X1U03AUX" description="RCA Phono Connectors 1 POS RA PHONO JACK"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CAD8DDE</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>TX_KEY</value>
+      <footprint>PJRAN1X1U03AUX:PJRAN1X1U03AUX</footprint>
+      <datasheet>http://www.switchcraft.com/Drawings/pjran1x1u__x_series_cd.pdf</datasheet>
+      <fields>
+        <field name="Description">RCA Phono Connectors 1 POS RA PHONO JACK</field>
+        <field name="Height">13</field>
+        <field name="Manufacturer_Name">Switchcraft</field>
+        <field name="Manufacturer_Part_Number">PJRAN1X1U03AUX</field>
+        <field name="Mouser Part Number">502-PJRAN1X1U03AUX</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=502-PJRAN1X1U03AUX</field>
+      </fields>
+      <libsource lib="PJRAN1X1U03AUX" part="PJRAN1X1U03AUX" description="RCA Phono Connectors 1 POS RA PHONO JACK"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CAD8F62</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>D_ALT</value>
+      <footprint>Diodes_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <libsource lib="yaacwk-rescue" part="D_ALT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCF63AA</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>10kOhm</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60760D98</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>0.47uF</value>
+      <footprint>Capacitors_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60760F67</tstamp>
+    </comp>
   </components>
   <libparts>
-    <libpart lib="regul" part="7805">
-      <aliases>
-        <alias>LM7805</alias>
-        <alias>LM7812</alias>
-        <alias>78L05</alias>
-      </aliases>
-      <description>Linear Regulator +5V</description>
-      <docs>regulator\lm78xx.pdf</docs>
+    <libpart lib="Connector" part="Barrel_Jack_Switch">
+      <description>DC Barrel Jack with an internal switch</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
       <fields>
-        <field name="Reference">U</field>
-        <field name="Value">7805</field>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack_Switch</field>
       </fields>
       <pins>
-        <pin num="GND" name="GND" type="input"/>
-        <pin num="VI" name="VI" type="input"/>
-        <pin num="VO" name="VO" type="power_out"/>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="yaacwk-cache" part="ATMEGA164P-P">
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PJ320A" part="PJ320A_3.5mm_4_conductors_audio_plug">
+      <footprints>
+        <fp>3.5_mm</fp>
+        <fp>audio</fp>
+        <fp>jack</fp>
+        <fp>plug</fp>
+        <fp>mic</fp>
+        <fp>phone</fp>
+        <fp>headphones</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">PJ320A_3.5mm_4_conductors_audio_plug</field>
+      </fields>
+      <pins>
+        <pin num="2" name="MIC" type="passive"/>
+        <pin num="3" name="L" type="output"/>
+        <pin num="4" name="R" type="input"/>
+        <pin num="5" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="PJRAN1X1U03AUX" part="PJRAN1X1U03AUX">
+      <description>RCA Phono Connectors 1 POS RA PHONO JACK</description>
+      <docs>http://www.switchcraft.com/Drawings/pjran1x1u__x_series_cd.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">PJRAN1X1U03AUX</field>
+        <field name="Footprint">PJRAN1X1U03AUX</field>
+        <field name="Datasheet">http://www.switchcraft.com/Drawings/pjran1x1u__x_series_cd.pdf</field>
+        <field name="Description">RCA Phono Connectors 1 POS RA PHONO JACK</field>
+        <field name="Height">13</field>
+        <field name="Manufacturer_Name">Switchcraft</field>
+        <field name="Manufacturer_Part_Number">PJRAN1X1U03AUX</field>
+        <field name="Mouser Part Number">502-PJRAN1X1U03AUX</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=502-PJRAN1X1U03AUX</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SLEEVE" type="BiDi"/>
+        <pin num="2" name="TIP" type="BiDi"/>
+        <pin num="3" name="SHUNT" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom_kicad_symbols" part="Mini-DIN_6pins_ver4">
+      <description>Mini-DIN 6 pins connector with shell</description>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">Mini-DIN_6pins_ver4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="Shell" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="display" part="LCD16X2">
       <aliases>
-        <alias>ATMEGA324P-P</alias>
-        <alias>ATMEGA644P-P</alias>
+        <alias>LCD-016N002L</alias>
       </aliases>
+      <description>WC1602A0-SFYLYNC06</description>
+      <docs>http://www.kamami.pl/dl/wc1602a0.pdf</docs>
+      <fields>
+        <field name="Reference">DS</field>
+        <field name="Value">LCD16X2</field>
+        <field name="Footprint">WC1602A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VSS" type="power_in"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="VO" type="input"/>
+        <pin num="4" name="RS" type="input"/>
+        <pin num="5" name="R/W" type="input"/>
+        <pin num="6" name="E" type="input"/>
+        <pin num="7" name="D0" type="input"/>
+        <pin num="8" name="D1" type="input"/>
+        <pin num="9" name="D2" type="input"/>
+        <pin num="10" name="D3" type="input"/>
+        <pin num="11" name="D4" type="input"/>
+        <pin num="12" name="D5" type="input"/>
+        <pin num="13" name="D6" type="input"/>
+        <pin num="14" name="D7" type="input"/>
+        <pin num="15" name="LED+" type="passive"/>
+        <pin num="16" name="LED-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="w_connectors" part="HEADER_3x2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_3x2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="w_connectors" part="HEADER_6">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="w_connectors" part="HEADER_9">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_9</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+        <pin num="9" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="w_connectors" part="HEADER_9x2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_9x2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+        <pin num="9" name="~" type="passive"/>
+        <pin num="10" name="~" type="passive"/>
+        <pin num="11" name="~" type="passive"/>
+        <pin num="12" name="~" type="passive"/>
+        <pin num="13" name="~" type="passive"/>
+        <pin num="14" name="~" type="passive"/>
+        <pin num="15" name="~" type="passive"/>
+        <pin num="16" name="~" type="passive"/>
+        <pin num="17" name="~" type="passive"/>
+        <pin num="18" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="w_device" part="INDUCTOR">
+      <description>Inductor</description>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="w_device" part="SW_SPDT">
+      <description>Switch SPDT</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="COM" type="passive"/>
+        <pin num="2" name="NC" type="passive"/>
+        <pin num="3" name="NO" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="w_device" part="buzzer">
+      <fields>
+        <field name="Reference">BZ</field>
+        <field name="Value">buzzer</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="yaacwk-rescue" part="ATMEGA644P-P">
       <footprints>
         <fp>40DIP-ELL600</fp>
         <fp>40dip600</fp>
       </footprints>
       <fields>
         <field name="Reference">IC</field>
-        <field name="Value">ATMEGA164P-P</field>
+        <field name="Value">ATMEGA644P-P</field>
         <field name="Footprint">DIL40</field>
       </fields>
       <pins>
@@ -593,8 +916,7 @@
         <pin num="40" name="(PCINT0/ADC0)PA0" type="BiDi"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="C">
-      <description>Unpolarized capacitor</description>
+    <libpart lib="yaacwk-rescue" part="C">
       <footprints>
         <fp>C?</fp>
         <fp>C_????_*</fp>
@@ -611,58 +933,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="yaacwk-cache" part="C-RESCUE-yaacwk">
-      <footprints>
-        <fp>SM*</fp>
-        <fp>C?</fp>
-        <fp>C1-1</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C-RESCUE-yaacwk</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_01X02">
-      <description>Connector, single row, 01x02</description>
-      <footprints>
-        <fp>Pin_Header_Straight_1X02</fp>
-        <fp>Pin_Header_Angled_1X02</fp>
-        <fp>Socket_Strip_Straight_1X02</fp>
-        <fp>Socket_Strip_Angled_1X02</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_01X02</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_01X03">
-      <description>Connector, single row, 01x03</description>
-      <footprints>
-        <fp>Pin_Header_Straight_1X03</fp>
-        <fp>Pin_Header_Angled_1X03</fp>
-        <fp>Socket_Strip_Straight_1X03</fp>
-        <fp>Socket_Strip_Angled_1X03</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_01X03</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="CP1">
-      <description>Polarised capacitor</description>
+    <libpart lib="yaacwk-rescue" part="CP1">
       <footprints>
         <fp>SMD*_Pol</fp>
         <fp>C_Axial*</fp>
@@ -681,8 +952,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="Crystal">
-      <description>Two pin crystal</description>
+    <libpart lib="yaacwk-rescue" part="Crystal">
       <footprints>
         <fp>Crystal*</fp>
       </footprints>
@@ -695,8 +965,7 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="D_ALT">
-      <description>Diode, alternativ symbol</description>
+    <libpart lib="yaacwk-rescue" part="D_ALT">
       <footprints>
         <fp>Diode_*</fp>
         <fp>D-*</fp>
@@ -714,93 +983,7 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="w_connectors" part="HEADER_11">
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">HEADER_11</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-        <pin num="3" name="~" type="passive"/>
-        <pin num="4" name="~" type="passive"/>
-        <pin num="5" name="~" type="passive"/>
-        <pin num="6" name="~" type="passive"/>
-        <pin num="7" name="~" type="passive"/>
-        <pin num="8" name="~" type="passive"/>
-        <pin num="9" name="~" type="passive"/>
-        <pin num="10" name="~" type="passive"/>
-        <pin num="11" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="w_connectors" part="HEADER_3">
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">HEADER_3</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-        <pin num="3" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="w_connectors" part="HEADER_6">
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">HEADER_6</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-        <pin num="3" name="~" type="passive"/>
-        <pin num="4" name="~" type="passive"/>
-        <pin num="5" name="~" type="passive"/>
-        <pin num="6" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="w_device" part="INDUCTOR">
-      <description>Inductor</description>
-      <fields>
-        <field name="Reference">L</field>
-        <field name="Value">INDUCTOR</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="display" part="LCD16X2">
-      <aliases>
-        <alias>LCD-016N002L</alias>
-      </aliases>
-      <description>WC1602A0-SFYLYNC06</description>
-      <docs>http://www.kamami.pl/dl/wc1602a0.pdf</docs>
-      <fields>
-        <field name="Reference">DS</field>
-        <field name="Value">LCD16X2</field>
-        <field name="Footprint">WC1602A</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VSS" type="power_in"/>
-        <pin num="2" name="VDD" type="power_in"/>
-        <pin num="3" name="VO" type="input"/>
-        <pin num="4" name="RS" type="input"/>
-        <pin num="5" name="R/W" type="input"/>
-        <pin num="6" name="E" type="input"/>
-        <pin num="7" name="D0" type="input"/>
-        <pin num="8" name="D1" type="input"/>
-        <pin num="9" name="D2" type="input"/>
-        <pin num="10" name="D3" type="input"/>
-        <pin num="11" name="D4" type="input"/>
-        <pin num="12" name="D5" type="input"/>
-        <pin num="13" name="D6" type="input"/>
-        <pin num="14" name="D7" type="input"/>
-        <pin num="15" name="LED+" type="passive"/>
-        <pin num="16" name="LED-" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="LED">
-      <description>LED generic</description>
+    <libpart lib="yaacwk-rescue" part="LED">
       <footprints>
         <fp>LED*</fp>
       </footprints>
@@ -813,45 +996,18 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="custom_kicad_symbols" part="Mini-DIN_6pins_ver4">
-      <description>Mini-DIN 6 pins connector with shell</description>
+    <libpart lib="yaacwk-rescue" part="LM7805">
       <fields>
-        <field name="Reference">P</field>
-        <field name="Value">Mini-DIN_6pins_ver4</field>
+        <field name="Reference">U</field>
+        <field name="Value">LM7805</field>
       </fields>
       <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-        <pin num="3" name="3" type="passive"/>
-        <pin num="4" name="4" type="passive"/>
-        <pin num="5" name="5" type="passive"/>
-        <pin num="6" name="~" type="passive"/>
-        <pin num="7" name="Shell" type="passive"/>
+        <pin num="GND" name="GND" type="input"/>
+        <pin num="VI" name="VI" type="input"/>
+        <pin num="VO" name="VO" type="power_out"/>
       </pins>
     </libpart>
-    <libpart lib="PJ320A" part="PJ320A_3.5mm_4_conductors_audio_plug">
-      <footprints>
-        <fp>3.5_mm</fp>
-        <fp>audio</fp>
-        <fp>jack</fp>
-        <fp>plug</fp>
-        <fp>mic</fp>
-        <fp>phone</fp>
-        <fp>headphones</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">PJ320A_3.5mm_4_conductors_audio_plug</field>
-      </fields>
-      <pins>
-        <pin num="2" name="GND" type="input"/>
-        <pin num="3" name="L" type="output"/>
-        <pin num="4" name="R" type="input"/>
-        <pin num="5" name="MIC" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="POT">
-      <description>Potentionmeter</description>
+    <libpart lib="yaacwk-rescue" part="POT">
       <fields>
         <field name="Reference">RV</field>
         <field name="Value">POT</field>
@@ -862,8 +1018,7 @@
         <pin num="3" name="3" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="R">
-      <description>Resistor</description>
+    <libpart lib="yaacwk-rescue" part="R">
       <footprints>
         <fp>R_*</fp>
         <fp>Resistor_*</fp>
@@ -877,7 +1032,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="yaacwk-cache" part="R-RESCUE-yaacwk">
+    <libpart lib="yaacwk-rescue" part="R-RESCUE-yaacwk">
       <footprints>
         <fp>R?</fp>
         <fp>SM0603</fp>
@@ -894,20 +1049,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="w_device" part="SW_PUSH">
-      <description>Push Button</description>
-      <fields>
-        <field name="Reference">SW</field>
-        <field name="Value">SW_PUSH</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="opto" part="TLP627-2">
-      <description>DIP8, DC Dual Darlington Optocoupler, Vce 300V, CTR 1000%</description>
-      <docs>http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP627_TLP627-4_en_datasheet_071001.pdf</docs>
+    <libpart lib="yaacwk-rescue" part="TLP627-2">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">TLP627-2</field>
@@ -924,426 +1066,494 @@
         <pin num="8" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="w_device" part="buzzer">
-      <fields>
-        <field name="Reference">BZ</field>
-        <field name="Value">buzzer</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
   </libparts>
   <libraries>
-    <library logical="device">
-      <uri>/usr/share/kicad/library/device.lib</uri>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
     </library>
-    <library logical="conn">
-      <uri>/usr/share/kicad/library/conn.lib</uri>
-    </library>
-    <library logical="regul">
-      <uri>/usr/share/kicad/library/regul.lib</uri>
-    </library>
-    <library logical="display">
-      <uri>/home/iz1glg/src/k3ng_cw_keyer/iz1glg_src/k3ng_keyer/kicad/lib/display.lib</uri>
-    </library>
-    <library logical="opto">
-      <uri>/usr/share/kicad/library/opto.lib</uri>
-    </library>
-    <library logical="w_device">
-      <uri>/home/iz1glg/src/k3ng_cw_keyer/iz1glg_src/k3ng_keyer/kicad/lib/w_device.lib</uri>
-    </library>
-    <library logical="w_connectors">
-      <uri>/home/iz1glg/src/k3ng_cw_keyer/iz1glg_src/k3ng_keyer/kicad/lib/w_connectors.lib</uri>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
     </library>
     <library logical="PJ320A">
-      <uri>/home/iz1glg/src/k3ng_cw_keyer/iz1glg_src/k3ng_keyer/kicad/lib/PJ320A.lib</uri>
+      <uri>/home/iz1glg/src/k3ng_cw_keyer/iz1glg_src/kicad/lib/PJ320A.lib</uri>
+    </library>
+    <library logical="PJRAN1X1U03AUX">
+      <uri>/home/iz1glg/src/k3ng_cw_keyer/iz1glg_src/kicad/lib/PJRAN1X1U03AUX.lib</uri>
     </library>
     <library logical="custom_kicad_symbols">
-      <uri>/home/iz1glg/src/k3ng_cw_keyer/iz1glg_src/k3ng_keyer/kicad/lib/custom_kicad_symbols.lib</uri>
+      <uri>/home/iz1glg/src/k3ng_cw_keyer/iz1glg_src/kicad/lib/custom_kicad_symbols.lib</uri>
     </library>
-    <library logical="yaacwk-cache">
-      <uri>/home/iz1glg/src/k3ng_cw_keyer/iz1glg_src/k3ng_keyer/kicad/yaacwk-cache.lib</uri>
+    <library logical="display">
+      <uri>/home/iz1glg/src/k3ng_cw_keyer/iz1glg_src/kicad/lib/display.lib</uri>
+    </library>
+    <library logical="w_connectors">
+      <uri>/home/iz1glg/src/k3ng_cw_keyer/iz1glg_src/kicad/lib/w_connectors.lib</uri>
+    </library>
+    <library logical="w_device">
+      <uri>/home/iz1glg/src/k3ng_cw_keyer/iz1glg_src/kicad/lib/w_device.lib</uri>
+    </library>
+    <library logical="yaacwk-rescue">
+      <uri>/home/iz1glg/src/k3ng_cw_keyer/iz1glg_src/kicad/yaacwk-rescue.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(IC1-Pad24)">
-      <node ref="J7" pin="3"/>
-      <node ref="IC1" pin="24"/>
-    </net>
-    <net code="2" name="Net-(D5-Pad1)">
-      <node ref="J9" pin="3"/>
-      <node ref="D5" pin="1"/>
-    </net>
-    <net code="3" name="Net-(D4-Pad1)">
-      <node ref="R9" pin="1"/>
-      <node ref="D4" pin="1"/>
-    </net>
-    <net code="4" name="Net-(IC1-Pad17)">
-      <node ref="J7" pin="6"/>
-      <node ref="IC1" pin="17"/>
-    </net>
-    <net code="5" name="Net-(IC1-Pad25)">
-      <node ref="IC1" pin="25"/>
-      <node ref="J7" pin="4"/>
-    </net>
-    <net code="6" name="Net-(IC1-Pad23)">
-      <node ref="IC1" pin="23"/>
-      <node ref="J7" pin="2"/>
-    </net>
-    <net code="7" name="Net-(IC1-Pad22)">
-      <node ref="IC1" pin="22"/>
-      <node ref="J7" pin="1"/>
-    </net>
-    <net code="8" name="Net-(IC1-Pad1)">
+    <net code="1" name="Net-(IC1-Pad1)">
+      <node ref="J8" pin="8"/>
       <node ref="IC1" pin="1"/>
-      <node ref="J8" pin="3"/>
     </net>
-    <net code="9" name="Net-(IC1-Pad2)">
-      <node ref="J8" pin="4"/>
-      <node ref="IC1" pin="2"/>
+    <net code="2" name="Net-(IC1-Pad5)">
+      <node ref="IC1" pin="5"/>
+      <node ref="J8" pin="7"/>
     </net>
-    <net code="10" name="Net-(IC1-Pad4)">
+    <net code="3" name="Net-(IC1-Pad4)">
       <node ref="J8" pin="5"/>
       <node ref="IC1" pin="4"/>
     </net>
-    <net code="11" name="Net-(DS1-Pad11)">
-      <node ref="DS1" pin="11"/>
-      <node ref="IC1" pin="18"/>
-    </net>
-    <net code="12" name="Net-(D1-Pad2)">
-      <node ref="D1" pin="2"/>
-      <node ref="R6" pin="1"/>
-    </net>
-    <net code="13" name="Net-(DS1-Pad14)">
-      <node ref="IC1" pin="21"/>
-      <node ref="DS1" pin="14"/>
-    </net>
-    <net code="14" name="Net-(DS1-Pad13)">
-      <node ref="IC1" pin="20"/>
-      <node ref="DS1" pin="13"/>
-    </net>
-    <net code="15" name="Net-(DS1-Pad12)">
-      <node ref="IC1" pin="19"/>
-      <node ref="DS1" pin="12"/>
-    </net>
-    <net code="16" name="Net-(D2-Pad2)">
-      <node ref="D2" pin="2"/>
-      <node ref="R7" pin="1"/>
-    </net>
-    <net code="17" name="Net-(IC2-Pad3)">
-      <node ref="IC2" pin="3"/>
-      <node ref="R11" pin="2"/>
-    </net>
-    <net code="18" name="Net-(IC2-Pad1)">
-      <node ref="R10" pin="2"/>
-      <node ref="IC2" pin="1"/>
-    </net>
-    <net code="19" name="Net-(IC1-Pad9)">
-      <node ref="IC1" pin="9"/>
-      <node ref="SW6" pin="2"/>
-    </net>
-    <net code="20" name="Net-(IC1-Pad5)">
+    <net code="4" name="Net-(IC1-Pad2)">
       <node ref="J8" pin="6"/>
-      <node ref="IC1" pin="5"/>
+      <node ref="IC1" pin="2"/>
     </net>
-    <net code="21" name="Net-(IC1-Pad6)">
-      <node ref="IC1" pin="6"/>
-      <node ref="J8" pin="7"/>
+    <net code="5" name="Net-(IC1-Pad17)">
+      <node ref="IC1" pin="17"/>
+      <node ref="J7" pin="5"/>
     </net>
-    <net code="22" name="Net-(IC1-Pad7)">
-      <node ref="J8" pin="8"/>
-      <node ref="IC1" pin="7"/>
+    <net code="6" name="Net-(BZ1-Pad1)">
+      <node ref="IC1" pin="29"/>
+      <node ref="BZ1" pin="1"/>
     </net>
-    <net code="23" name="Net-(IC1-Pad8)">
-      <node ref="IC1" pin="8"/>
+    <net code="7" name="Net-(IC1-Pad16)">
+      <node ref="IC1" pin="16"/>
+      <node ref="J7" pin="6"/>
+    </net>
+    <net code="8" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2"/>
+      <node ref="J6" pin="1"/>
+    </net>
+    <net code="9" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2"/>
+      <node ref="J6" pin="6"/>
+    </net>
+    <net code="10" name="Net-(D5-Pad1)">
+      <node ref="J9" pin="5"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="11" name="Net-(C13-Pad1)">
+      <node ref="J9" pin="1"/>
+      <node ref="U1" pin="VO"/>
+      <node ref="C13" pin="1"/>
+    </net>
+    <net code="12" name="Net-(IC1-Pad6)">
       <node ref="J8" pin="9"/>
+      <node ref="IC1" pin="6"/>
+      <node ref="J8" pin="10"/>
     </net>
-    <net code="24" name="Net-(IC1-Pad3)">
-      <node ref="L1" pin="1"/>
-      <node ref="IC1" pin="3"/>
+    <net code="13" name="Net-(IC1-Pad7)">
+      <node ref="IC1" pin="7"/>
+      <node ref="J8" pin="12"/>
+      <node ref="J8" pin="11"/>
     </net>
-    <net code="25" name="Net-(C5-Pad1)">
-      <node ref="C5" pin="1"/>
-      <node ref="IC2" pin="6"/>
-      <node ref="J4" pin="1"/>
+    <net code="14" name="Net-(IC1-Pad8)">
+      <node ref="J8" pin="14"/>
+      <node ref="J8" pin="13"/>
+      <node ref="IC1" pin="8"/>
     </net>
-    <net code="26" name="Net-(C4-Pad2)">
-      <node ref="C4" pin="2"/>
-      <node ref="J4" pin="2"/>
-      <node ref="J3" pin="2"/>
-      <node ref="C5" pin="2"/>
-      <node ref="IC2" pin="5"/>
-      <node ref="IC2" pin="7"/>
+    <net code="15" name="Net-(J8-Pad1)">
+      <node ref="J8" pin="2"/>
+      <node ref="J8" pin="1"/>
+      <node ref="J9" pin="4"/>
     </net>
-    <net code="27" name="Net-(D3-Pad2)">
+    <net code="16" name="Net-(D7-Pad1)">
+      <node ref="J9" pin="6"/>
+      <node ref="D7" pin="1"/>
+    </net>
+    <net code="17" name="Net-(C20-Pad2)">
+      <node ref="J6" pin="5"/>
+      <node ref="C20" pin="2"/>
+    </net>
+    <net code="18" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="19" name="Net-(D3-Pad2)">
       <node ref="R8" pin="1"/>
       <node ref="D3" pin="2"/>
     </net>
-    <net code="28" name="Net-(C6-Pad2)">
-      <node ref="R3" pin="1"/>
-      <node ref="SW2" pin="2"/>
-      <node ref="C6" pin="2"/>
-      <node ref="R2" pin="2"/>
+    <net code="20" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R6" pin="1"/>
     </net>
-    <net code="29" name="Net-(C9-Pad2)">
-      <node ref="R14" pin="1"/>
-      <node ref="C9" pin="2"/>
-      <node ref="R5" pin="2"/>
-      <node ref="SW5" pin="2"/>
+    <net code="21" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="R7" pin="1"/>
     </net>
-    <net code="30" name="Net-(C8-Pad2)">
-      <node ref="R5" pin="1"/>
-      <node ref="SW4" pin="2"/>
-      <node ref="C8" pin="2"/>
-      <node ref="R4" pin="2"/>
+    <net code="22" name="Net-(D4-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="D4" pin="1"/>
     </net>
-    <net code="31" name="Net-(C7-Pad2)">
-      <node ref="SW3" pin="2"/>
-      <node ref="R4" pin="1"/>
-      <node ref="R3" pin="2"/>
-      <node ref="C7" pin="2"/>
+    <net code="23" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2"/>
+      <node ref="J1" pin="1"/>
     </net>
-    <net code="32" name="Net-(IC1-Pad33)">
-      <node ref="IC1" pin="33"/>
+    <net code="24" name="Net-(J5-Pad2)">
+      <node ref="J5" pin="2"/>
+    </net>
+    <net code="25" name="Net-(C3-Pad1)">
+      <node ref="IC1" pin="28"/>
+      <node ref="C3" pin="1"/>
+      <node ref="J5" pin="3"/>
+    </net>
+    <net code="26" name="Net-(C12-Pad1)">
+      <node ref="J2" pin="3"/>
+      <node ref="J2" pin="4"/>
+      <node ref="C12" pin="1"/>
+    </net>
+    <net code="27" name="Net-(C2-Pad1)">
+      <node ref="J5" pin="4"/>
+      <node ref="IC1" pin="27"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="28" name="Net-(C14-Pad1)">
+      <node ref="U1" pin="VI"/>
+      <node ref="C14" pin="1"/>
+      <node ref="U2" pin="VI"/>
+      <node ref="D6" pin="1"/>
+      <node ref="C16" pin="1"/>
+    </net>
+    <net code="29" name="Net-(SW6-Pad2)">
+      <node ref="SW6" pin="2"/>
+    </net>
+    <net code="30" name="Net-(C20-Pad1)">
+      <node ref="R17" pin="2"/>
+      <node ref="J8" pin="17"/>
+      <node ref="SW6" pin="3"/>
+      <node ref="C20" pin="1"/>
+      <node ref="IC1" pin="9"/>
+    </net>
+    <net code="31" name="Net-(PS2CONN1-Pad7)">
+      <node ref="PS2CONN1" pin="7"/>
+    </net>
+    <net code="32" name="GND">
+      <node ref="J1" pin="2"/>
+      <node ref="J1" pin="3"/>
+      <node ref="IC1" pin="31"/>
+      <node ref="J5" pin="5"/>
+      <node ref="U1" pin="GND"/>
+      <node ref="J12" pin="9"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C19" pin="1"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="DS1" pin="1"/>
+      <node ref="SW9" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="SW8" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="SW7" pin="1"/>
+      <node ref="J8" pin="18"/>
+      <node ref="J8" pin="16"/>
+      <node ref="J8" pin="15"/>
+      <node ref="SW5" pin="1"/>
+      <node ref="C16" pin="2"/>
+      <node ref="PS2CONN1" pin="3"/>
+      <node ref="SW4" pin="1"/>
+      <node ref="IC1" pin="11"/>
+      <node ref="J2" pin="5"/>
+      <node ref="SW6" pin="1"/>
+      <node ref="DS1" pin="5"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U2" pin="GND"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="BZ1" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="R9" pin="2"/>
+      <node ref="LCDPot2" pin="3"/>
+      <node ref="R13" pin="2"/>
+      <node ref="J6" pin="2"/>
+      <node ref="DS1" pin="16"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="IC2" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="IC2" pin="4"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="SpeedPot1" pin="3"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="SW3" pin="1"/>
+      <node ref="J11" pin="9"/>
+      <node ref="J10" pin="9"/>
+    </net>
+    <net code="34" name="Net-(L2-Pad2)">
+      <node ref="L2" pin="2"/>
+      <node ref="PS2CONN1" pin="1"/>
+    </net>
+    <net code="35" name="Net-(PS2CONN1-Pad2)">
+      <node ref="PS2CONN1" pin="2"/>
+    </net>
+    <net code="36" name="Net-(PS2CONN1-Pad6)">
+      <node ref="PS2CONN1" pin="6"/>
+    </net>
+    <net code="37" name="Net-(IC1-Pad39)">
+      <node ref="J11" pin="1"/>
+      <node ref="IC1" pin="39"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="SW1" pin="3"/>
+      <node ref="J12" pin="1"/>
+      <node ref="J10" pin="1"/>
+    </net>
+    <net code="38" name="Net-(IC1-Pad32)">
+      <node ref="IC1" pin="32"/>
+    </net>
+    <net code="39" name="Net-(DS1-Pad4)">
+      <node ref="DS1" pin="4"/>
+      <node ref="IC1" pin="38"/>
+    </net>
+    <net code="40" name="Net-(IC1-Pad25)">
+      <node ref="IC1" pin="25"/>
+      <node ref="J7" pin="4"/>
+    </net>
+    <net code="41" name="Net-(IC1-Pad14)">
+      <node ref="IC1" pin="14"/>
+      <node ref="J6" pin="3"/>
+    </net>
+    <net code="42" name="Net-(IC1-Pad15)">
+      <node ref="IC1" pin="15"/>
+      <node ref="J6" pin="4"/>
+    </net>
+    <net code="43" name="Net-(IC1-Pad22)">
+      <node ref="J7" pin="1"/>
+      <node ref="IC1" pin="22"/>
+    </net>
+    <net code="44" name="Net-(IC1-Pad23)">
+      <node ref="J7" pin="2"/>
+      <node ref="IC1" pin="23"/>
+    </net>
+    <net code="45" name="Net-(IC1-Pad24)">
+      <node ref="IC1" pin="24"/>
+      <node ref="J7" pin="3"/>
+    </net>
+    <net code="46" name="Net-(DS1-Pad10)">
+      <node ref="DS1" pin="10"/>
+    </net>
+    <net code="47" name="Net-(IC1-Pad33)">
       <node ref="R7" pin="2"/>
       <node ref="R11" pin="1"/>
+      <node ref="IC1" pin="33"/>
     </net>
-    <net code="33" name="Net-(DS1-Pad4)">
-      <node ref="IC1" pin="38"/>
-      <node ref="DS1" pin="4"/>
+    <net code="48" name="Net-(SW5-Pad2)">
+      <node ref="SW5" pin="2"/>
     </net>
-    <net code="34" name="Net-(IC1-Pad36)">
-      <node ref="IC1" pin="36"/>
+    <net code="49" name="Net-(SW4-Pad2)">
+      <node ref="SW4" pin="2"/>
+    </net>
+    <net code="50" name="Net-(SW3-Pad2)">
+      <node ref="SW3" pin="2"/>
+    </net>
+    <net code="51" name="Net-(SW2-Pad2)">
+      <node ref="SW2" pin="2"/>
+    </net>
+    <net code="52" name="Net-(SW1-Pad2)">
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="53" name="Net-(DS1-Pad15)">
+      <node ref="LCDPot2" pin="1"/>
+      <node ref="DS1" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="SpeedPot1" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R12" pin="1"/>
+      <node ref="J9" pin="3"/>
+      <node ref="DS1" pin="15"/>
+      <node ref="IC1" pin="30"/>
+      <node ref="J8" pin="3"/>
+      <node ref="J8" pin="4"/>
+      <node ref="R17" pin="1"/>
+      <node ref="PS2CONN1" pin="4"/>
+      <node ref="IC1" pin="10"/>
+    </net>
+    <net code="54" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="IC1" pin="40"/>
+      <node ref="SpeedPot1" pin="2"/>
+    </net>
+    <net code="55" name="Net-(IC1-Pad36)">
       <node ref="R10" pin="1"/>
+      <node ref="IC1" pin="36"/>
       <node ref="R8" pin="2"/>
     </net>
-    <net code="35" name="Net-(D6-Pad2)">
-      <node ref="D6" pin="2"/>
-      <node ref="J1" pin="3"/>
-      <node ref="J1" pin="2"/>
+    <net code="56" name="Net-(IC2-Pad1)">
+      <node ref="IC2" pin="1"/>
+      <node ref="R10" pin="2"/>
     </net>
-    <net code="36" name="Net-(D4-Pad2)">
+    <net code="57" name="Net-(IC2-Pad3)">
+      <node ref="IC2" pin="3"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="58" name="Net-(C4-Pad1)">
+      <node ref="IC2" pin="8"/>
+      <node ref="C4" pin="1"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="59" name="Net-(DS1-Pad6)">
+      <node ref="DS1" pin="6"/>
+      <node ref="IC1" pin="26"/>
+    </net>
+    <net code="60" name="Net-(DS1-Pad7)">
+      <node ref="DS1" pin="7"/>
+    </net>
+    <net code="61" name="Net-(DS1-Pad8)">
+      <node ref="DS1" pin="8"/>
+    </net>
+    <net code="62" name="Net-(DS1-Pad9)">
+      <node ref="DS1" pin="9"/>
+    </net>
+    <net code="63" name="Net-(DS1-Pad11)">
+      <node ref="DS1" pin="11"/>
+      <node ref="IC1" pin="18"/>
+    </net>
+    <net code="64" name="Net-(DS1-Pad12)">
+      <node ref="IC1" pin="19"/>
+      <node ref="DS1" pin="12"/>
+    </net>
+    <net code="65" name="Net-(C12-Pad2)">
+      <node ref="C12" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="R13" pin="1"/>
+      <node ref="IC1" pin="35"/>
+    </net>
+    <net code="66" name="Net-(D4-Pad2)">
       <node ref="D4" pin="2"/>
       <node ref="IC1" pin="34"/>
     </net>
-    <net code="37" name="Net-(IC1-Pad37)">
-      <node ref="L2" pin="1"/>
+    <net code="67" name="Net-(IC1-Pad37)">
       <node ref="IC1" pin="37"/>
+      <node ref="L2" pin="1"/>
     </net>
-    <net code="38" name="Net-(L2-Pad2)">
-      <node ref="PS2CONN1" pin="1"/>
-      <node ref="L2" pin="2"/>
+    <net code="68" name="Net-(IC1-Pad3)">
+      <node ref="IC1" pin="3"/>
+      <node ref="L1" pin="1"/>
     </net>
-    <net code="39" name="Net-(C10-Pad2)">
+    <net code="69" name="Net-(L1-Pad2)">
+      <node ref="L1" pin="2"/>
+      <node ref="PS2CONN1" pin="5"/>
+    </net>
+    <net code="70" name="Net-(C9-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="J10" pin="5"/>
+      <node ref="R14" pin="1"/>
+      <node ref="J12" pin="5"/>
+      <node ref="C9" pin="2"/>
+      <node ref="J11" pin="5"/>
+      <node ref="SW5" pin="3"/>
+    </net>
+    <net code="71" name="Net-(C8-Pad2)">
+      <node ref="J12" pin="4"/>
+      <node ref="C8" pin="2"/>
+      <node ref="J11" pin="4"/>
+      <node ref="SW4" pin="3"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="J10" pin="4"/>
+    </net>
+    <net code="72" name="Net-(C7-Pad2)">
+      <node ref="SW3" pin="3"/>
+      <node ref="R3" pin="2"/>
+      <node ref="J12" pin="3"/>
+      <node ref="J10" pin="3"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="J11" pin="3"/>
+    </net>
+    <net code="73" name="Net-(C6-Pad2)">
+      <node ref="R2" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="J12" pin="2"/>
+      <node ref="J10" pin="2"/>
+      <node ref="SW2" pin="3"/>
+      <node ref="C6" pin="2"/>
+      <node ref="J11" pin="2"/>
+    </net>
+    <net code="74" name="Net-(C10-Pad2)">
       <node ref="Y1" pin="1"/>
       <node ref="C10" pin="2"/>
       <node ref="IC1" pin="13"/>
     </net>
-    <net code="40" name="Net-(DS1-Pad6)">
-      <node ref="DS1" pin="6"/>
-      <node ref="IC1" pin="26"/>
+    <net code="75" name="Net-(C11-Pad2)">
+      <node ref="C11" pin="2"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="IC1" pin="12"/>
     </net>
-    <net code="42" name="Net-(C4-Pad1)">
-      <node ref="IC2" pin="8"/>
-      <node ref="J3" pin="1"/>
-      <node ref="C4" pin="1"/>
-    </net>
-    <net code="43" name="Net-(IC1-Pad16)">
-      <node ref="J7" pin="5"/>
-      <node ref="IC1" pin="16"/>
-    </net>
-    <net code="44" name="Net-(C1-Pad1)">
-      <node ref="IC1" pin="40"/>
-      <node ref="C1" pin="1"/>
-      <node ref="SpeedPot1" pin="2"/>
-    </net>
-    <net code="45" name="Net-(C12-Pad1)">
-      <node ref="C12" pin="1"/>
-      <node ref="J2" pin="3"/>
-      <node ref="J2" pin="5"/>
-      <node ref="J2" pin="4"/>
-    </net>
-    <net code="46" name="Net-(IC1-Pad14)">
-      <node ref="IC1" pin="14"/>
-      <node ref="J6" pin="3"/>
-    </net>
-    <net code="47" name="Net-(DS1-Pad3)">
+    <net code="76" name="Net-(DS1-Pad3)">
       <node ref="LCDPot2" pin="2"/>
       <node ref="DS1" pin="3"/>
     </net>
-    <net code="48" name="Net-(C11-Pad2)">
-      <node ref="Y1" pin="2"/>
-      <node ref="IC1" pin="12"/>
-      <node ref="C11" pin="2"/>
+    <net code="77" name="Net-(DS1-Pad14)">
+      <node ref="IC1" pin="21"/>
+      <node ref="DS1" pin="14"/>
     </net>
-    <net code="49" name="Net-(IC1-Pad15)">
-      <node ref="J6" pin="4"/>
-      <node ref="IC1" pin="15"/>
+    <net code="78" name="Net-(DS1-Pad13)">
+      <node ref="DS1" pin="13"/>
+      <node ref="IC1" pin="20"/>
     </net>
-    <net code="50" name="Net-(IC1-Pad39)">
-      <node ref="R1" pin="2"/>
-      <node ref="SW1" pin="2"/>
-      <node ref="R2" pin="1"/>
-      <node ref="IC1" pin="39"/>
+    <net code="79" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1"/>
+      <node ref="J4" pin="3"/>
+      <node ref="J4" pin="2"/>
+      <node ref="IC2" pin="6"/>
     </net>
-    <net code="51" name="Net-(BZ1-Pad1)">
-      <node ref="BZ1" pin="1"/>
-      <node ref="IC1" pin="29"/>
+    <net code="80" name="Net-(C4-Pad2)">
+      <node ref="IC2" pin="5"/>
+      <node ref="IC2" pin="7"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="J4" pin="1"/>
+      <node ref="J3" pin="1"/>
     </net>
-    <net code="52" name="Net-(L1-Pad2)">
-      <node ref="PS2CONN1" pin="5"/>
-      <node ref="L1" pin="2"/>
+    <net code="81" name="Net-(C18-Pad2)">
+      <node ref="J12" pin="7"/>
+      <node ref="R16" pin="1"/>
+      <node ref="J10" pin="7"/>
+      <node ref="J11" pin="7"/>
+      <node ref="SW8" pin="3"/>
+      <node ref="C18" pin="2"/>
+      <node ref="R15" pin="2"/>
     </net>
-    <net code="53" name="Net-(C3-Pad1)">
-      <node ref="J5" pin="2"/>
-      <node ref="IC1" pin="28"/>
-      <node ref="C3" pin="1"/>
-    </net>
-    <net code="54" name="GND">
-      <node ref="C8" pin="1"/>
-      <node ref="SW4" pin="1"/>
-      <node ref="SW5" pin="1"/>
-      <node ref="IC1" pin="11"/>
-      <node ref="C6" pin="1"/>
-      <node ref="IC2" pin="4"/>
-      <node ref="C9" pin="1"/>
-      <node ref="IC2" pin="2"/>
-      <node ref="C7" pin="1"/>
-      <node ref="BZ1" pin="2"/>
-      <node ref="C1" pin="2"/>
-      <node ref="J8" pin="11"/>
-      <node ref="C13" pin="2"/>
-      <node ref="C14" pin="2"/>
-      <node ref="J6" pin="2"/>
-      <node ref="J2" pin="2"/>
-      <node ref="C16" pin="2"/>
-      <node ref="J8" pin="10"/>
-      <node ref="C15" pin="2"/>
-      <node ref="SW6" pin="1"/>
-      <node ref="D1" pin="1"/>
-      <node ref="C10" pin="1"/>
-      <node ref="C11" pin="1"/>
-      <node ref="SpeedPot1" pin="3"/>
-      <node ref="SW3" pin="1"/>
-      <node ref="SW2" pin="1"/>
-      <node ref="SW1" pin="1"/>
-      <node ref="U1" pin="GND"/>
-      <node ref="D2" pin="1"/>
-      <node ref="D3" pin="1"/>
-      <node ref="U2" pin="GND"/>
-      <node ref="SW7" pin="1"/>
-      <node ref="C17" pin="1"/>
-      <node ref="SW8" pin="1"/>
-      <node ref="C18" pin="1"/>
-      <node ref="SW9" pin="1"/>
-      <node ref="C19" pin="1"/>
-      <node ref="IC1" pin="31"/>
-      <node ref="R13" pin="2"/>
-      <node ref="LCDPot2" pin="3"/>
-      <node ref="R9" pin="2"/>
-      <node ref="DS1" pin="1"/>
-      <node ref="DS1" pin="16"/>
-      <node ref="J1" pin="1"/>
-      <node ref="PS2CONN1" pin="3"/>
-      <node ref="J5" pin="3"/>
-      <node ref="DS1" pin="5"/>
-      <node ref="C3" pin="2"/>
-      <node ref="C2" pin="2"/>
-    </net>
-    <net code="55" name="Net-(C2-Pad1)">
-      <node ref="C2" pin="1"/>
-      <node ref="J5" pin="1"/>
-      <node ref="IC1" pin="27"/>
-    </net>
-    <net code="56" name="Net-(C12-Pad2)">
-      <node ref="C12" pin="2"/>
-      <node ref="R13" pin="1"/>
-      <node ref="R12" pin="2"/>
-      <node ref="IC1" pin="35"/>
-    </net>
-    <net code="57" name="Net-(DS1-Pad7)">
-      <node ref="DS1" pin="7"/>
-    </net>
-    <net code="58" name="Net-(DS1-Pad8)">
-      <node ref="DS1" pin="8"/>
-    </net>
-    <net code="59" name="Net-(DS1-Pad9)">
-      <node ref="DS1" pin="9"/>
-    </net>
-    <net code="60" name="Net-(DS1-Pad10)">
-      <node ref="DS1" pin="10"/>
-    </net>
-    <net code="61" name="Net-(PS2CONN1-Pad2)">
-      <node ref="PS2CONN1" pin="2"/>
-    </net>
-    <net code="62" name="Net-(PS2CONN1-Pad6)">
-      <node ref="PS2CONN1" pin="6"/>
-    </net>
-    <net code="63" name="Net-(PS2CONN1-Pad7)">
-      <node ref="PS2CONN1" pin="7"/>
-    </net>
-    <net code="64" name="Net-(C15-Pad1)">
-      <node ref="J8" pin="1"/>
-      <node ref="U2" pin="VI"/>
+    <net code="82" name="Net-(C15-Pad1)">
+      <node ref="J9" pin="2"/>
       <node ref="C15" pin="1"/>
+      <node ref="U2" pin="VO"/>
     </net>
-    <net code="65" name="Net-(C17-Pad2)">
-      <node ref="R15" pin="1"/>
+    <net code="83" name="Net-(SW7-Pad2)">
       <node ref="SW7" pin="2"/>
-      <node ref="C17" pin="2"/>
-      <node ref="R14" pin="2"/>
     </net>
-    <net code="66" name="Net-(C19-Pad2)">
-      <node ref="C19" pin="2"/>
-      <node ref="R16" pin="2"/>
+    <net code="84" name="Net-(C17-Pad2)">
+      <node ref="R14" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="SW7" pin="3"/>
+      <node ref="J10" pin="6"/>
+      <node ref="J11" pin="6"/>
+      <node ref="R15" pin="1"/>
+      <node ref="J12" pin="6"/>
+    </net>
+    <net code="85" name="Net-(SW8-Pad2)">
+      <node ref="SW8" pin="2"/>
+    </net>
+    <net code="86" name="Net-(SW9-Pad2)">
       <node ref="SW9" pin="2"/>
     </net>
-    <net code="67" name="Net-(C18-Pad2)">
-      <node ref="R15" pin="2"/>
-      <node ref="SW8" pin="2"/>
-      <node ref="C18" pin="2"/>
-      <node ref="R16" pin="1"/>
-    </net>
-    <net code="68" name="Net-(C16-Pad1)">
-      <node ref="J8" pin="2"/>
-      <node ref="IC1" pin="30"/>
-      <node ref="R1" pin="1"/>
-      <node ref="PS2CONN1" pin="4"/>
-      <node ref="DS1" pin="15"/>
-      <node ref="DS1" pin="2"/>
-      <node ref="R12" pin="1"/>
-      <node ref="LCDPot2" pin="1"/>
-      <node ref="IC1" pin="10"/>
-      <node ref="R6" pin="2"/>
-      <node ref="C16" pin="1"/>
-      <node ref="J9" pin="2"/>
-      <node ref="U2" pin="VO"/>
-      <node ref="SpeedPot1" pin="1"/>
-    </net>
-    <net code="69" name="Net-(D5-Pad2)">
-      <node ref="J6" pin="1"/>
-      <node ref="D5" pin="2"/>
-    </net>
-    <net code="70" name="Net-(C13-Pad1)">
-      <node ref="U1" pin="VO"/>
-      <node ref="C13" pin="1"/>
-      <node ref="J9" pin="1"/>
-    </net>
-    <net code="71" name="Net-(J6-Pad6)">
-      <node ref="J6" pin="6"/>
-    </net>
-    <net code="72" name="Net-(C14-Pad1)">
-      <node ref="D6" pin="1"/>
-      <node ref="C14" pin="1"/>
-      <node ref="U1" pin="VI"/>
-    </net>
-    <net code="73" name="Net-(J6-Pad5)">
-      <node ref="J6" pin="5"/>
-    </net>
-    <net code="74" name="Net-(IC1-Pad32)">
-      <node ref="IC1" pin="32"/>
+    <net code="87" name="Net-(C19-Pad2)">
+      <node ref="J10" pin="8"/>
+      <node ref="SW9" pin="3"/>
+      <node ref="R16" pin="2"/>
+      <node ref="J11" pin="8"/>
+      <node ref="J12" pin="8"/>
+      <node ref="C19" pin="2"/>
     </net>
   </nets>
 </export>

@@ -1,4 +1,4 @@
-update=Mon Feb 11 17:12:02 2019
+update=lun 15 feb 2021 03:23:16 CET
 version=1
 last_client=kicad
 [general]
@@ -31,7 +31,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=Plot_out/yaacwk_v1.3/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew

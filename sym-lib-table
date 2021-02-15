@@ -7,4 +7,5 @@
   (lib (name w_connectors)(type Legacy)(uri ${KIPRJMOD}/lib/w_connectors.lib)(options "")(descr ""))
   (lib (name custom_kicad_symbols)(type Legacy)(uri ${KIPRJMOD}/lib/custom_kicad_symbols.lib)(options "")(descr ""))
   (lib (name PJ320A)(type Legacy)(uri ${KIPRJMOD}/lib/PJ320A.lib)(options "")(descr ""))
+  (lib (name PJRAN1X1U03AUX)(type Legacy)(uri ${KIPRJMOD}/lib/PJRAN1X1U03AUX.lib)(options "")(descr ""))
 )

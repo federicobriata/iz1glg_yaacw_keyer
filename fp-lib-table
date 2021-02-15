@@ -99,4 +99,5 @@
   (lib (name mini_din6New)(type KiCad)(uri /home/iz1glg/src/k3ng_cw_keyer/iz1glg_src/kicad/modules/mini_din6New.pretty)(options "")(descr ""))
   (lib (name mojes-kicad-footprints)(type KiCad)(uri /home/iz1glg/kicad_sources/mojes-kicad-footprints.pretty)(options "")(descr ""))
   (lib (name PJ320A)(type KiCad)(uri /home/iz1glg/src/k3ng_cw_keyer/iz1glg_src/kicad/modules/PJ320A.pretty)(options "")(descr ""))
+  (lib (name PJRAN1X1U03AUX)(type KiCad)(uri ${KIPRJMOD}/modules/PJRAN1X1U03AUX.pretty)(options "")(descr ""))
 )

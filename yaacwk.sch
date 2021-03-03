@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "YAACWK - Yet Another Arduino Cw Keyer"
 Date "2019-04-27"
-Rev "H"
+Rev "I"
 Comp "Copyright: CC BY-SA 4.0 by: Iz1glg - I1cra"
 Comment1 "ATmega 644p variant"
 Comment2 ""

@@ -4828,7 +4828,7 @@
   (gr_text RESET (at 188.9 115.95) (layer B.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.2)) (justify mirror))
   )
-  (gr_text "+5V_IN   -    RX0   TX0    DTR  +3.3V_IN " (at 182.1 78.3) (layer F.SilkS)
+  (gr_text "+5V_IN   GND  RX0   TX0    DTR  +3.3V_IN " (at 182.1 78.3) (layer F.SilkS)
     (effects (font (size 0.5 0.5) (thickness 0.125)))
   )
   (gr_text "RX1   TX1   PC3   PC2   PC1   PC0" (at 174.3 91) (layer F.SilkS)
